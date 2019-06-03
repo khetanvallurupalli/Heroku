@@ -1,6 +1,6 @@
 const http = require('http');
 const { Client } = require('pg');
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 80;
 const { DATABASE_URL } = process.env;
 const server = http.createServer((req, res) => {
   const client = new Client({
