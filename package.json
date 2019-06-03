@@ -1,10 +1,13 @@
 {
-    "name": "heroku-database",
-    "version": "1.0.0",
-    "description": "Hello World sample app",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    }
+  "name": "heroku-database",
+  "version": "1.0.0",
+  "description": "Hello World sample app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^7.11.0"
+  }
 }
