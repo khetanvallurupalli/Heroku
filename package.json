@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "pg": "^7.11.0"
+    "pg": "^8.11.0"
   }
 }
